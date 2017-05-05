@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <title></title>
+  <head>
+  <style>
+  .height50{
+    height: 50px;
+  }
+  .height400{
+    height: 400px;
+  }
+  .height300{
+    height: 300px;
+  }
+  .height200{
+    height: 200px;
+  }
+  .height100{
+    height: 100px;
+  }
+  .width400 {
+    width: 400px;
+  }
+  .bgred{
+    background-color: #6AC5AC;
+  }
+  .bggreen{
+    background-color: #414142;
+  }
+  .bgyellow{
+    background-color: #D64078;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    color: #fdc72f;
+    line-height: 1em;
+  }
+  .label{
+    top: 0;
+    left: 0;
+    padding: 0 3px 3px 0;
+    position: absolute;
+    background-color: #fdc72f;
+    color: white;
+    line-height: 1em;
+  }
+  .top{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .paddingBox{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  .elementBox{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  .measureBox{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  </style>
+</head>
+
+<body>
+  <span class="measureBox">
+    <span class="box height400 width400">
+      <span class="label">
+        margin
+      </span>
+    </span>
+
+  </span>
+</body>

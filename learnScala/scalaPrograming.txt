@@ -1,0 +1,72 @@
+
+var msg = "Hello World!"
+val const = "Hello World"
+
+def max(x: Int, y: Int): Int = {
+	if (x>y) x
+	else y
+}
+
+var i=0
+while (i<args.length){
+	println(args(i))
+	i+=1
+}
+
+args.foreach(arg=>println(arg))
+args.foreach((arg: String))=>println(arg)
+args.foreach(println)
+
+for (arg<-args)
+	println(arg)
+
+
+Array
+var greets  new Array[String](3)
+greets(0) = "Hello"
+greets(1) = ", "
+greets(2) = "World"
+
+List
+var oneTwo = List(1, 2)
+
+Tuple
+var pair = (99, "Luftballons")
+
+Set
+var jetSet = Set("Boeing", "Airbus")
+
+jetSet += "Lear"
+println(jetSet.contains("Cessna"))
+
+File
+import scala.io.Source
+
+if (args.length>0){
+	for (line<-Source.fromFile(args(0)).getLines)
+	println(line.length+" " +line)
+}
+else 
+	Console.err.println("Please enter file name")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
