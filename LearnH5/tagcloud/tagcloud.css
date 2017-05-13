@@ -1,0 +1,13 @@
+#tagCloud {
+    height: 300px;
+    width: 600px;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+#tagCloud a {
+    position: absolute;
+    text-decoration: none;
+    color: #0B61A4;
+    text-shadow: #66A3D2 1px -1px 1px;
+}
