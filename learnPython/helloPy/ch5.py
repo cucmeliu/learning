@@ -26,15 +26,15 @@ print 'failed'
 L = [75, 92, 59, 68]
 sum = 0.0
 for score in L:
-sum=sum+score
+    sum=sum+score
 print sum / 4.0
 
 #5-5 while
 sum = 0
 x = 1
 while x<=100:
-sum=sum+x
-x=x+2
+    sum=sum+x
+    x=x+2
 print sum
 
 #5-6 break
@@ -42,12 +42,11 @@ sum = 0
 x = 1
 n = 1
 while True:
-
-sum=sum+x
-x=2*x
-n=n+1
-if n>20:
-break
+    sum=sum+x
+    x=2*x
+    n=n+1
+    if n>20:
+        break
 print sum
 
 #5-7 continue

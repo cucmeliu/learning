@@ -1,0 +1,22 @@
+match()
+函数试图从字符串的起始部分对模式进行匹配。如果匹配成功，就返回一个匹配对象；如果
+匹配失败，就返回 None，匹配对象的 group()方法能够用于显示那个成功的匹配。
+
+m = re.match('foo', 'food on the table') 
+if m is not None: m.group()
+
+ search()会用它的字符串参数，在任意位置对给定正则表达式模式搜索第一次出现
+的匹配情况。如果搜索到成功的匹配，就会返回一个匹配对象； 否则， 返回 None。
+
+m = re.search('foo', 'seafood')
+if m is not None: m.group()
+
+
+bt = 'bat|bet|bit'
+m = re.match(bt, 'bat')
+
+
+
+
+
+
