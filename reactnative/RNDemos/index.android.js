@@ -17,7 +17,7 @@ const AppContainer = () =>
               renderScene={ (route, navigator) => {
                 let Component = route.component;
                 return React.createElement(Component, { ...route.passProps, navigator })
-              }}
+              }} 
   />
 
 AppRegistry.registerComponent('blogApp', () => AppContainer);

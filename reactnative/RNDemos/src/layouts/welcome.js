@@ -5,20 +5,20 @@ import { View, Image, StyleSheet, StatusBar } from 'react-native';
 import Layout from './layout.js';
 
 // Styles
-import { AppColors, AppSizes } from '@app/style';
+import { AppColors, AppSizes } from '../style';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: AppColors.background, 
-    alignItems: 'center', 
+    backgroundColor: AppColors.background,
+    alignItems: 'center',
     justifyContent: 'center'
   },
   launchImage: {
-    position: 'absolute', 
-    left: 0, 
-    top: 0, 
-    width: AppSizes.screen.width, 
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    width: AppSizes.screen.width,
     height: AppSizes.screen.height
   }
 });
